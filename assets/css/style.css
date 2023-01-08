@@ -120,18 +120,18 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    color: blue;
+    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    color: silver;
+    background-color: silver;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    color: green;
+    background-color: green;
 }
