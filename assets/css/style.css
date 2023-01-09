@@ -37,6 +37,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    padding-bottom: 20px;
 }
 
 #menu li {
