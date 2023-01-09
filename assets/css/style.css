@@ -6,6 +6,7 @@
     border: none;
 
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -14,7 +15,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -32,7 +34,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -63,8 +66,9 @@ h1, h2 {
     background: url(../images/hero-image.webp) no-repeat center center;
 }
 
-#cover-text, cover-text h2 {
-        color: #fff;
+#cover-text,
+cover-text h2 {
+    color: #fff;
 }
 
 #hero-outer {
@@ -73,19 +77,21 @@ h1, h2 {
     overflow: hidden;
     position: relative;
 
-/* animates zoom effect on loading page*/
+    /* animates zoom effect on loading page*/
 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -215,7 +221,7 @@ hr {
 
 /* footer */
 
-footer{
+footer {
     height: 150px;
 }
 
@@ -223,7 +229,7 @@ footer{
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -243,7 +249,7 @@ footer{
     column-gap: 0px;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -254,8 +260,8 @@ footer{
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
-        height: 1200px
-        margin  0 auto;
+        height: 1200px;
+        margin: 0 auto;
     }
 
     #welcome {
@@ -263,7 +269,8 @@ footer{
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -279,6 +286,13 @@ footer{
     hr {
         display: none;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* for medium screen sizes 950px and down */
@@ -291,5 +305,28 @@ footer{
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
 }
