@@ -193,7 +193,7 @@ hr {
     border-radius: 50%;
 }
 
-/* evemnt times */
+/* event times */
 
 #times {
     background: url(../images/dublin-city.webp);
@@ -309,6 +309,7 @@ footer {
 
     #cover-text {
         left: 0;
+        padding-left: 20px;
     }
 
     #club-ethos {
